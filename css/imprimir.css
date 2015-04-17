@@ -1,5 +1,5 @@
 @media print{
-  .estilo {
+  body {
     font-size:18em;
     color: #345678;
     background-color:#701470;
