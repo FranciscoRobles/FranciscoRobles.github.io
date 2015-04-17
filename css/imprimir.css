@@ -3,4 +3,8 @@
     font-size:18em;
     color: #701470;
   }
+  .orbit {
+    visibility: hidden;
+    display: none;
+  }
 }
