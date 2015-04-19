@@ -3415,7 +3415,7 @@ ul.pagination {
       display: none;
       padding: 0.9375rem; }
       .accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
-        display: block;
+        display: hidden;
         background: #FFFFFF; }
 
 .text-left {
