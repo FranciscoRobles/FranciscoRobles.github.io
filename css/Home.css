@@ -2,6 +2,8 @@ body{background-color:#14C4AD;}
 
 h1{color:#FFFFFF;}
 
+.menu{color:#FFFFFF;}
+
 $include-html-icon-bar-classes: $include-html-classes
 @import "foundation/components/icon-bar";
 
