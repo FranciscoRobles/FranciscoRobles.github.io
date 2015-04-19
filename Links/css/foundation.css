@@ -3097,7 +3097,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   font-size: 0;
   display: inline-block;
-  background: #333333; }
+  background: #FFFFFF; }
   .icon-bar > * {
     text-align: center;
     font-size: 1rem;
@@ -3160,21 +3160,21 @@ meta.foundation-mq-topbar {
       width: 1.875rem;
       height: 1.875rem; }
   .icon-bar > * label {
-    color: #FFFFFF; }
+    color: #14C4AD; }
   .icon-bar > * i {
-    color: #FFFFFF; }
+    color: #14C4AD; }
   .icon-bar > a:hover {
     background: #008CBA; }
     .icon-bar > a:hover label {
-      color: #FFFFFF; }
+      color: #14C4AD; }
     .icon-bar > a:hover i {
-      color: #FFFFFF; }
+      color: #14C4AD; }
   .icon-bar > a.active {
     background: #008CBA; }
     .icon-bar > a.active label {
-      color: #FFFFFF; }
+      color: #14C4AD; }
     .icon-bar > a.active i {
-      color: #FFFFFF; }
+      color: #14C4AD; }
 
 .icon-bar.two-up .item {
   width: 50%; }
