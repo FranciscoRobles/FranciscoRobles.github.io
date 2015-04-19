@@ -3,6 +3,7 @@ body{background-color:#14C4AD;}
 h1{color:#FFFFFF;}
 
 $include-html-icon-bar-classes: $include-html-classes
+@import "foundation/components/icon-bar";
 
 // We use these to style the icon-bar and items
 $icon-bar-bg: $oil;
