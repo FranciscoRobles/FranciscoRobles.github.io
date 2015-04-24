@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<html class="no-js" lang="en" ng-app="app" ng-init="pais='mx'">
 <head>
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
         <title>Gluten-Free: Restaurantes</title>
@@ -56,6 +57,9 @@
   		</li>
    	</ul>
 	</div>
+</div>
+<div class="row" ng-controller="j in comida">
+	value="{{j.lugar}}">{{j.nombre}}
 </div>
  <ul class="accordion" data-accordion>
 <li class="accordion-navigation">
