@@ -63,9 +63,10 @@
 		<select>
 		<option ng-repeat="j in comida" value="{{j.lugar}}">{{j.nombre}}</option>
 	</select>
+	<p>The place is in <span ng-bind="j.lugar"></span></p>
 	</div>
 </div>
-<p>The place is in <span ng-bind="j.lugar"></span></p>
+<p></p>
  <ul class="accordion" data-accordion>
 <li class="accordion-navigation">
     <a href="#panel1a">Cheesecake Factory</a>
