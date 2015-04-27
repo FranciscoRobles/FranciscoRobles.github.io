@@ -63,7 +63,7 @@
 		<select>
 		<option ng-repeat="j in comida" value="{{j.lugar}}">{{j.nombre}}</option>
 	</select>
-	<p>The place is in <span ng-bind="j.lugar"></span></p>
+	<p>The place is in <span ng-repeat="j.lugar"></span></p>
 	</div>
 </div>
 <p></p>
