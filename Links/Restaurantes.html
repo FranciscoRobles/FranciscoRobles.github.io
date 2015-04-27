@@ -61,7 +61,7 @@
 <div class="row" ng-controller="controlador">
 	ng-repeat="j in comida" value="{{j.lugar}}">{{j.nombre}}
 </div>
- <ul class="accordion" data-accordion>
+ <ul class="accordion" data-accordion ng-repeat="j in comida" value="{{j.lugar}}">{{j.nombre}}>
 <li class="accordion-navigation">
     <a href="#panel1a">Cheesecake Factory</a>
     <div id="panel1a" class="content active">
