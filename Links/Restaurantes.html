@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en" ng-app="js/app" ng-init="pais='mx'">
+<html class="no-js" lang="en" ng-app="app" ng-init="pais='mx'">
 <head>
+	<meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
         <title>Gluten-Free: Restaurantes</title>
         <link rel="stylesheet" href="css/foundation.css"/>
@@ -58,8 +59,9 @@
 	</div>
 </div>
 <div class="row" ng-controller="controlador">
+<div class="small-4 columns">
 	<select>
-	<option ng-repeat="j in periodistas" value="{{j.nombre}}">{{j.medio}}</option>
+	<option ng-repeat="j in comida" value="{{j.nombre}}">{{j.lugar}}</option>
 </select>
 </div>
  <ul class="accordion" data-accordion>
