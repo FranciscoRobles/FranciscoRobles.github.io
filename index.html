@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/Home.css"/>
 	<link rel="stylesheet" href="css/imprimir.css"/>
 	<script src = "js/ad.js">
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
 	</script>
 
 <head>
@@ -78,6 +79,26 @@
    	</ul>
 	</div>
 </div>
+
+<div ng-app="myApp" ng-controller="personCtrl">
+
+<button ng-click="toggle()">Terms and Conditions</button>
+
+<p ng-hide="myVar">
+hola
+</p>
+
+</div>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('personCtrl', function($scope) {
+    $scope.myVar = false;
+    $scope.toggle = function() {
+        $scope.myVar = !$scope.myVar;
+    }
+});
+</script> 
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
